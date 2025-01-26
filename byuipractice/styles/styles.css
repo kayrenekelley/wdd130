@@ -14,16 +14,30 @@ body {
     margin: 40px;
   }
 
+  #active {
+    background-color: white;
+    color: steelblue;
+  }
+
   /*Main*/
+  /*color for h1*/
   h1 {
     color: steelblue;
   }
+
+  /*main picture for site*/
   img {
     width: 800px;
     border: 4px solid steelblue;
   }
+
+  /*Paragraphs*/
   p {
     padding: 10px;
+  }
+  .main-para {
+    font-size: 1.5em;
+    line-height: 1.5em;
   }
 
   /*Footer*/
