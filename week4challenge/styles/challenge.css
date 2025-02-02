@@ -1,0 +1,41 @@
+/*whole page*/
+
+body {
+    text-align: center;
+  }
+
+/*main*/
+
+#first-line, #second-line{
+    font-size: 1.5em;
+}
+
+a {
+    font-size: 1.5em;
+    color: white;
+    margin: 40px;
+  }
+  a:hover {
+    color: black;
+    }
+
+  /*#edu {
+    
+    color: white;
+  }*/
+
+  ol {
+    list-style-position: inside; /* Optional */
+    text-align: center; /* Centers list items horizontally */
+    padding: 0;
+    color: black;
+    font-size: 1.5em;
+  }
+ 
+  /*main picture for site*/
+ .nelson{
+    width: 80%;
+    display: block;
+    margin: 0% auto;
+    
+  }

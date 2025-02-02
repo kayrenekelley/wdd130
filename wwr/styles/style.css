@@ -1,0 +1,125 @@
+/*whole page*/
+    #content {
+        max-width: 1600px; 
+        width: 100%; /* Ensures it can shrink if needed */
+        margin: 0 auto; /* Centers the element */
+    }
+
+/*head*/
+
+/*body*/
+    body {
+        background-color: #d4f5f5;
+    }
+
+/*header*/
+    #hero-msg h1, #hero-msg h4 {
+        text-align: center;
+    }
+
+    header {
+        background-color: #00728f;
+    }
+/*header {
+    font-size: 1.5em;
+    color: white;
+    margin: 40px;
+  }*/
+    .logo {
+        width: 80px;
+    }
+
+    .button-box {
+        text-align: center;
+    }
+
+    .book {
+        background-color: white;
+        color: #001529;
+        text-decoration: none;
+    }
+    .book:hover {
+        background-color: #fefd8e;
+        color: #001529;
+    }
+
+/*nav*/
+    nav a {
+        text-align: center;
+        color:white;
+        text-decoration: none;
+    }
+
+    nav a:hover {
+        background-color: #003262;
+        color: white;
+    }
+
+/*inbetween header and images or main*/
+    .home-title {
+        color: #001529;
+    }
+    h4 {
+        color: #001529;
+    }
+
+    #hero-img {
+        width: 100%;
+    }
+
+/*images*/
+
+/*main*/
+    main section {
+        text-align: center;
+    }
+
+    #background {
+        height: 725px;
+    }
+
+    .icon {
+        width: 80px;
+    }
+
+    .join {
+        background-color: #d4f5f5;
+        color: #001529;
+        text-decoration: none;
+    }
+
+    .join:hover {
+        background-color: #fefd8e;
+        color: #001529;
+    }
+    .msg {
+        background-color: #00b9e8;
+        color: #001529;
+    }
+    .msg h2 {
+        color: #001529;
+    }
+    .msg p {
+        color: #001529;
+    }
+
+    #background {
+        background-color: #00b9e8;
+    }
+
+/*footer*/
+    footer {
+        background-color: #00728f;
+        color: whitesmoke;
+        font-size: 1.2em;
+        
+    }
+    footer p a {
+        color: whitesmoke;
+        text-decoration: none;
+    }
+    footer a:hover {
+        background-color: #fefd8e;
+        color: #001529;
+        text-decoration: underline;
+    }
