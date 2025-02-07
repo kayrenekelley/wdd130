@@ -10,6 +10,10 @@
 /*body*/
     body {
         background-color: #d4f5f5;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 22px;
+        margin: 0;
+        padding: 0;
     }
 
 /*header*/
@@ -29,6 +33,10 @@
         width: 80px;
     }
 
+    #logo_link {
+        padding-top: 5px;
+    }
+
     .button-box {
         text-align: center;
     }
@@ -37,6 +45,9 @@
         background-color: white;
         color: #001529;
         text-decoration: none;
+        padding: 15px 30px;
+        margin-top: 50px;
+        border-radius: 5px;
     }
     .book:hover {
         background-color: #fefd8e;
@@ -48,6 +59,7 @@
         text-align: center;
         color:white;
         text-decoration: none;
+        padding: 15px 30px;
     }
 
     nav a:hover {
@@ -58,6 +70,9 @@
 /*inbetween header and images or main*/
     .home-title {
         color: #001529;
+        font-family: papyrus;
+        font-size: 2em;
+        margin-top: 10px;
     }
     h4 {
         color: #001529;
@@ -73,19 +88,44 @@
     main section {
         text-align: center;
     }
+    main section img {
+        box-sizing: border-box;
+    }
+
+    h2 {
+        margin: 0;
+    }
 
     #background {
         height: 725px;
     }
 
+    .card-img {
+        border: 10px solid #001529;
+    }
+
+    .rivers-card {
+        margin: 200px 0;
+    }
+    .camping-card {
+        margin: 200px 0;
+    }
+    .rapids-card {
+        margin: 200px 0;
+    }
+
     .icon {
         width: 80px;
+        padding-top: 10px;
     }
 
     .join {
         background-color: #d4f5f5;
         color: #001529;
         text-decoration: none;
+        padding: 15px 30px;
+        margin-top: 50px;
+        border-radius: 5px;
     }
 
     .join:hover {
@@ -95,12 +135,15 @@
     .msg {
         background-color: #00b9e8;
         color: #001529;
+        line-height: 1.5em;
+        padding: 35px;
     }
     .msg h2 {
         color: #001529;
     }
     .msg p {
         color: #001529;
+        padding-bottom: 15px;
     }
 
     #background {
@@ -112,6 +155,8 @@
         background-color: #00728f;
         color: whitesmoke;
         font-size: 1.2em;
+        padding: 25px 50px;
+        margin-top: 200px;
         
     }
     footer p a {
@@ -122,4 +167,7 @@
         background-color: #fefd8e;
         color: #001529;
         text-decoration: underline;
+    }
+    footer .social img {
+        padding-top: 15px;
     }
