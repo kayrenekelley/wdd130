@@ -13,6 +13,7 @@
 body {
     background-color: #f0fff0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #132a13;
     font-size: 22px;
     margin: 0;
     padding: 0;
@@ -32,7 +33,7 @@ body {
   }
   .hero-msg {
     position: absolute;
-    top: 20%;
+    top: 10%;
     left: 50%;
     transform: translate(-50%, -20%);
     z-index: 2;
@@ -41,8 +42,10 @@ body {
     border-radius: 12px;
   }
   .home-title {
-    font-size: 2.5rem;
-    font-weight: bold;
+    font-family: 'ink free';
+    color: #1a1029;
+    font-size: 80px;
+    font-weight: 900;
   }
   /* HOME GRID (below hero) */
 .home-grid {
@@ -77,30 +80,7 @@ body {
     font-size: 2rem;
     margin: 0 0 1rem 0;
   }
-/*.hero-pic {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    margin-top: 0px;
-}
-.hero-pic {
-    grid-column: 1/5;
-    grid-row: 1/5;
-    z-index: -1;
-}
-.hero-msg {
-    grid-column: 3/5;
-    grid-row: 1/5;
-    margin-top: 100px;
-}
 
-.home-title {
-    text-align: center;
-    color: #1a1029;
-}
-
-.hero-pic {
-    width: 100%;
-}*/
 
 header {
     background-color: #96c59f;
@@ -154,6 +134,83 @@ nav a:hover {
 }
 /*main*/
 
+/*MEET THE LADIES AND GENT PAGE*/
+
+/* Main Grid Container */
+.meet-grid {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #96c59f;
+    border-top: 2px solid #132a13;
+  }
+
+  /* Title Style */
+.home-title {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 30px;
+    /*font-family: 'ink free';*/
+  }
+
+  /* Each Goat Section */
+.meet-grid section {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #132a13;
+    padding-bottom: 20px;
+    gap: 20px;
+  }
+
+  /* Left column: image + name 
+.meet-grid section > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px;
+  }*/
+
+  /* Goat Images */
+.doe-img {
+    width: 140px;
+    height: auto;
+    object-fit: cover;
+    border: 3px solid #132a13;
+    border-radius: 8px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+  }
+
+  /* Right Column (Name + Text) */
+.meet-grid section .doe-text {
+    max-width: 800px;
+  }
+  /* Text Container */
+.doe-text {
+  max-width: 100%;
+}
+
+  /* Name Heading */
+.meet-grid h4 {
+    margin: 0 0 8px 0;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+ 
+  
+  /* Paragraph Style */
+  .doe-line {
+    /*margin-top: 5px;*/
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: Verdana, sans-serif;
+   /* max-width: 800px;*/
+  }
+
+
 /*footer*/
 footer {
     background-color: #96c59f;
@@ -181,7 +238,7 @@ footer .social img {
 }
 /**/
 @media screen and (max-width: 900px) {
-    #hero, .home-grid {
+    #hero, .meet-grid section {
         display: block;
         height: auto;
     }
@@ -207,18 +264,11 @@ footer .social img {
     .home-title {
         font-size: 25px;
     }
-    .rivers-card, .camping-card, .rapids-card { 
-        margin: 50px auto;
-        width: 60%;
-    }
+   
     #background {
         display: none;
     }
-    .mountains, .msg {
-        width: 80%;
-        display: block;
-        margin: 0 auto;
-    }
+   
     footer {
         margin-top: 25px;
     }
