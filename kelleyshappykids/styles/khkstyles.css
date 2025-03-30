@@ -41,9 +41,11 @@ body {
     border-radius: 12px;
   }
   .home-title {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 30px;
     font-family: 'ink free';
     color: #1a1029;
-    font-size: 80px;
     font-weight: 900;
   }
   /* HOME GRID (below hero) */
@@ -253,10 +255,10 @@ footer .social img {
 
         color: #1a1029;
     }
-    .meet-grid .home-title {
+    /*.home-title {
       font-family: 'ink free';
         font-size: 25px;
-    }
+    }*/
    
     #background {
         display: none;
