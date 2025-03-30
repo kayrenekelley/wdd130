@@ -5,8 +5,7 @@
     margin: 0 auto; /* Centers the element */
 }
 
-/*head*/
-/*@import url('https://fonts.googleapis.com/css?family=Architects Daughter');*/
+
 
 /*body*/
 
@@ -259,7 +258,8 @@ footer .social img {
         display: none;
     }
     #hero-msg h1 {
-        color: #6f7364;
+      font-family: 'ink free';
+        color: #1a1029;
     }
     .home-title {
         font-size: 25px;
