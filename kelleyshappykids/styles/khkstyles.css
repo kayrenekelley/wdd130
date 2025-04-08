@@ -307,7 +307,7 @@ img {
 /*SUCCESS AND FAILS*/
 
 /* Main Grid Container */
-.sucs-grid {
+.sc-grid {
   max-width: 1000px;
   margin: 40px auto; /*top and bottom space from header/footer*/
   padding: 20px;
@@ -327,7 +327,7 @@ img {
 }
 
 /* Each Goat Section */
-.sucs-grid section {
+.sc-grid section {
   display: flex;
   align-items: flex-start;
   margin-bottom: 30px;
@@ -338,7 +338,7 @@ img {
 
 /* Goat Images */
 .sc-img {
-  width: 140px;
+  width: 160px;
   height: auto;
   object-fit: cover;
   border: 3px solid #132a13;
@@ -348,7 +348,7 @@ img {
 }
 
 /* Right Column (Name + Text) */
-.sucs-grid section .sc-text {
+.sc-grid section .sc-text {
   max-width: 800px;
 }
 /* Text Container */
@@ -357,7 +357,7 @@ max-width: 100%;
 }
 
 /* Name Heading */
-.sucs-grid h4 {
+.sc-grid h4 {
   margin: 0 0 8px 0;
   font-size: 20px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -438,4 +438,20 @@ footer .social img {
     footer {
         margin-top: 25px;
     }
+}
+/* === Responsive: Stack on Mobile === */
+@media (max-width: 768px) {
+  .sc-grid section {
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+  }
+
+  .sc-img {
+    margin-bottom: 10px;
+  }
+
+  .sc-text {
+    max-width: 100%;
+  }
 }
